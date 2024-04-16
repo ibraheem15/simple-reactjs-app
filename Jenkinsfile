@@ -9,7 +9,8 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                sh 'git clone https://github.com/ibraheem15/simple-reactjs-app.git'
+                // sh 'git clone https://github.com/ibraheem15/simple-reactjs-app.git'
+                echo 'Checkout'
             }
         }
         stage('build') {
